@@ -96,4 +96,10 @@ class My_Widget extends WP_Widget {
 
 }
 
+// register My_Widget widget
+function register_my_widget() {
+    register_widget( 'My_Widget' );
+}
+add_action( 'widgets_init', 'register_my_widget' );
+
 ?>
