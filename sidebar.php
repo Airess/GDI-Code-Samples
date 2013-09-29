@@ -1,6 +1,6 @@
 <?php
 /**
- * The sidebar containing the secondary widget area, displays on posts and pages.
+ * The sidebar containing the secondary widget area and conditional tags for page-specific sidebars.
  *
  * If no active widgets in this sidebar, it will be hidden completely.
  *
