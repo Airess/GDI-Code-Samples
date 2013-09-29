@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * GDI Twentythirteen child theme functions and definitions
+ */
 
 /************* Custom Images *************/
 
