@@ -14,19 +14,18 @@
 	<div class="sidebar-inner">
 		<div class="widget-area">
 		
-		<?php
-			if(is_page( 'about' )){
-				dynamic_sidebar( 'aboutsidebar' );
-			}
+			<?php
+				if(is_page( 'about' )){
+					dynamic_sidebar( 'aboutsidebar' );
+				}
 
-			if(is_page( 'contact' )){
-				dynamic_sidebar( 'concactsidebar' );
-			}
-		?>
-	
-<?php
-if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-
+				if(is_page( 'contact' )){
+					dynamic_sidebar( 'concactsidebar' );
+				}
+			?>
+		
+			<?php
+				if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
 			</div><!-- .widget-area -->
