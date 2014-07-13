@@ -20,7 +20,7 @@
 				}
 
 				if(is_page( 'contact' )){
-					dynamic_sidebar( 'concactsidebar' );
+					dynamic_sidebar( 'contactsidebar' );
 				}
 			?>
 		

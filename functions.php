@@ -40,7 +40,7 @@ register_sidebar(array(
 
 register_sidebar(array(
 	'name' => __( 'Contact Sidebar' ),
-	'id' => 'concactsidebar',
+	'id' => 'contactsidebar',
 	'description' => __( 'The Contact page sidebar.' ),
 	'before_widget' => '<div id="%1$s" class="contact3wsidebar %2$s">',
 	'after_widget' => '</div>',
